@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical-5</title>
+    <style>
+        #container{
+                  /*Styling for any element with the id="container" */
+                         width:80%; /* The width is liquid by screen-percentage*/
+                         height:auto; /* The height is liquid by screen-percentage*/
+                    
+            }
+            .logo {
+  position: relative;
+  left: 640px;
+  
+}
+.logo1{
+  position: relative;
+  left: 277px;
+  
+}
+
+    </style>
 </head>
 <body style="background-color: #191a1ff6;font-family: Arial;margin: 0px;">
+    <div id="container">
     <img src="../img/Group 2.jpg" width="1920px" height="70px" usemap="#Nav">
     <map name="Nav">
         <area
@@ -17,8 +37,9 @@
         <area href="../p/Practical-4.html" shape="rect" coords="1397,30 ,1491,45"/>
         <area href="../p/Practical-5.html" shape="rect" coords="1549,30 ,1643,45"/>
     </map>
-</center><h1 style="color: white;text-align:center;">Introduction to Front-End Technologies.</h1></center>
-    <center><img src="../img/Group 5.jpg" width="1366px" height="623"></center>
-<center><h1 style="color: white;" >Click on any part of logo to know more.</h1></center>
+<h1 class="logo" style="color: white;">Introduction to Front-End Technologies.</h1>
+<img src="../img/Group 5.jpg" class="logo1">
+<h1 class="logo" style="color: white;">Click on any part of logo to know more.</h>
+</div>
 </body>
 </html>
